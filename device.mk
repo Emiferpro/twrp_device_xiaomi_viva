@@ -6,7 +6,6 @@
 #
 
 
-VENDOR_PATH := vendor/xiaomi/viva/proprietary
 LOCAL_PATH := device/xiaomi/viva
 
 # Dynamic Partitions
@@ -94,5 +93,5 @@ TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
 
 # TOUCH FIRMWARE
 PRODUCT_COPY_FILES += \
-    $(VENDOR_PATH)/vendor/firmware/goodix_firmware.bin:recovery/root/vendor/firmware/goodix_firmware.bin \
-    $(VENDOR_PATH)/vendor/firmware/goodix_cfg_group.bin:recovery/root/vendor/firmware/goodix_cfg_group.bin
+    fw/goodix_firmware.bin:recovery/root/vendor/firmware/goodix_firmware.bin \
+    fw/goodix_cfg_group.bin:recovery/root/vendor/firmware/goodix_cfg_group.bin
