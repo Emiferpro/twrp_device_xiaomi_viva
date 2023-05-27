@@ -91,7 +91,4 @@ TARGET_RECOVERY_DEVICE_MODULES += \
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.keymaster@4.1.so
 
-# TOUCH FIRMWARE
-PRODUCT_COPY_FILES += \
-    fw/goodix_firmware.bin:recovery/root/vendor/firmware/goodix_firmware.bin \
-    fw/goodix_cfg_group.bin:recovery/root/vendor/firmware/goodix_cfg_group.bin
+	
